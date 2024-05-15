@@ -26,12 +26,12 @@ public class Employe extends Personne {
 
 
     public void afficherDetails() {
-        System.out.println("------------");
+        System.out.println("==============");
         System.out.println("Nom: " + getNom());
         System.out.println("Prénom: " + getPrenom());
         System.out.println("ID: " + getId());
         System.out.println("Poste: " + poste);
         System.out.println("Salaire: " + salaire);
-        System.out.println("------------");
+        System.out.println("==============");
     }
 }

@@ -50,12 +50,12 @@ public class Membre extends Personne {
 
 
         public void afficherDetails() {
-            System.out.println("------------");
+            System.out.println("==============");
             System.out.println("Nom: " + getNom());
             System.out.println("Prénom: " + getPrenom());
             System.out.println("ID: " + getId());
             System.out.println("Date d'adhésion: " + dateAdhesion.toString());
             System.out.println("Statut: " + statut);
-            System.out.println("------------");
+            System.out.println("==============");
         }
     }
