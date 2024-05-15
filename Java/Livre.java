@@ -50,15 +50,25 @@ public class Livre  implements Empruntable {
         System.out.println("Auteur: " + auteur);
         System.out.println("ISBN: " + isbn);
         System.out.println("Disponible: " + disponible);
+        if (disponible) {
+            System.out.println("Disponible");
+          } else {
+            System.out.println("Indisponible");
+          }
     }
 
 
     public void emprunter() {
-        
+        if (disponible) {
+            setDisponible(false);
+            System.out.println("Vous pouvez emprunter le livre");
+          } else {
+            System.out.println("Vous ne pouvez pas emprunter le livre");
+          }
         }
 
     public void retourner() {
-     
+        setDisponible(true);
         }
  
     }
