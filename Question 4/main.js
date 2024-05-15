@@ -10,4 +10,4 @@ console.log(liste_filtre([1, 2, 'a', 'b']));                    // Réponse atte
 console.log(liste_filtre([1, 'a', 'b', 0, 15]));                // Réponse attendu : [1, 0, 15]
 console.log(liste_filtre([1, 2, 'aasf', '3', '124', 123]));     // Réponse attendu : [1, 2, 3, 124, 123]
 
-console.log(liste_filtre([12, 21, 'Maxime', 'Fleury', 'ESIEE-IT', 8])); 
+console.log(liste_filtre([12, 21, 'Maxime', 'Fleury', 'ESIEE-IT', 8])); // Réponse : [ 12, 21, 8 ]
